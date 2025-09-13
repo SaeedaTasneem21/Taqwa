@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background"
+    tools:context=".PrayerTime">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="914dp"
+        android:layout_height="122dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="cursive"
+        android:letterSpacing="0.025"
+        android:paddingTop="2dp"
+        android:paddingStart="16dp"
+        android:paddingBottom="20dp"
+        android:text="Taqwa"
+        android:textStyle="bold"
+        android:textColor="#63521E"
+        android:textSize="60sp"
+        tools:ignore="HardcodedText" />
+
+    <GridLayout
+        android:id="@+id/gridL"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/txt1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="@drawable/effect"
+            app:cardBackgroundColor="#EFEDED"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="97dp"
+                android:layout_height="128dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:src="@drawable/praying2_removebg_preview" />
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:text="Prayer Time"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/effect"
+            app:cardBackgroundColor="#EFEDED"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="96dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:src="@drawable/tasbih__1__removebg_preview" />
+
+                <TextView
+                    android:layout_width="71dp"
+                    android:layout_height="48dp"
+                    android:text="Tasbih"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="@drawable/effect"
+            app:cardBackgroundColor="#EFEDED"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="108dp"
+                    android:layout_height="104dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:src="@drawable/qibla_removebg_preview" />
+
+                <TextView
+                    android:layout_width="91dp"
+                    android:layout_height="wrap_content"
+                    android:text="Qibla"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="@drawable/effect"
+            app:cardBackgroundColor="#EFEDED"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="114dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:src="@drawable/hadith_removebg_preview" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hadith"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1C2511"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context=".TasbeehCount">
+
+
+    <TextView
+        android:id="@+id/count1"
+        android:layout_width="351dp"
+        android:layout_height="346dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/showazkr_removebg_preview"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="120dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="55sp" />
+
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bg5_removebg_preview" />
+
+    <ImageButton
+        android:id="@+id/add1"
+        android:layout_width="67dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/count1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="43dp"
+        android:background="@drawable/add_sign_removebg1"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="0dp" />
+
+    <ImageButton
+        android:id="@+id/rzt1"
+        android:layout_width="152dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/add1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/reset_removebg_preview__1_"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="0dp" />
+
+</RelativeLayout>

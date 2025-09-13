@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#A4B315"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context=".QiblaCompass">
+
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="-7dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/pngtree_islamic_border_frame_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/compas"
+        android:layout_width="404dp"
+        android:layout_height="650dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/qibla_compass1" />
+
+
+</RelativeLayout>

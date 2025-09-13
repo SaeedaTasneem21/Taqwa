@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Taqwa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fajr">Fajr</string>
+    <string name="shuruk">Sunrise</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="jumu3a">Jumuaa</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="nextfajr">Next fajr</string>
+    <string name="close_notification">Close</string>
+    <string name="Tap_here_for_location">Tap here to set location</string>
+    <string name="zero_hour">00:00</string>
+    <string name="square">\u25A0</string>
+    <string name="action_settings">Settings</string>
+    <string name="time_for">Time for %s prayer</string>
+    <string name="time_in">In %s at %s</string>
+    <string name="time_up">It is %s time since </string>
+    <string name="time_to_next">Next prayer in </string>
+    <string name="time_interval"> %2d h, %2d m and %2d s</string>
+    <string name="time_interval_rounded"> %2d h and %2d m</string>
+    <string name="time_interval_0h"> %2d m and %2d s</string>
+    <string name="time_interval_0h_rounded"> %2d m</string>
+    <string name="search_city">Search city</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_header_locations">Location</string>
+    <string name="pref_title_search_city">City</string>
+    <string name="pref_undefined_city">Undefined</string>
+
+    <string name="pref_title_method">Calculation method</string>
+    <string-array name="pref_method_list_titles">
+        <item>Muslim World League</item>
+        <item>Egyptian Survey Authority</item>
+        <item>Umm Al-Qurra University</item>
+        <item>Karachi Univ. of Islamic Sciences</item>
+        <item>Islamic Society of North America</item>
+        <item>Union of Islamic Org. in France</item>
+        <item>Kuwait Ministry of Awqaf</item>
+
+    </string-array>
+    <string name="pref_title_language">Language</string>
+    <string name="pref_title_about">About</string>
+    <string name="pref_txt_about">
+         </string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_header_general">General</string>
+    <string-array name="pref_language_list_values">
+        <item>--</item>
+        <item>ar</item>
+        <item>en</item>
+    </string-array>
+    <string-array name="pref_language_list_titles">
+        <item>Follow device settings</item>
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+    <string name="pref_language_default_value">--</string>
+    <string-array name="pref_method_list_values">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string name="pref_title_numerals">Numerals</string>
+    <string-array name="pref_numerals_list_titles">
+        <item>Follow location</item>
+        <item>Arabic</item>
+        <item>Arabic Eastern</item>
+    </string-array>
+    <string-array name="pref_numerals_list_values">
+        <item>CC</item>
+        <item>DZ</item>
+        <item>EG</item>
+    </string-array>
+    <string name="pref_numerals_default_value">CC</string>
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_prayer_time">Prayer time</string>
+    <string name="pref_title_mathhab_hanafi">Mathhab Hanafi</string>
+    <string name="pref_description_mathhab_hanafi">Follow Mathhab Hanafi for Asr time</string>
+
+    <string name="pref_title_round">Rounding seconds</string>
+    <string name="title_activity_prayer_time">PrayerTime</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

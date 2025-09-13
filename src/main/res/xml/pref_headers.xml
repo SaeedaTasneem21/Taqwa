@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.example.taqwa.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general"
+        android:icon="@drawable/ic_baseline_settings_24" />
+
+    <header
+        android:fragment="com.example.taqwa.SettingsActivity$LocationsPreferenceFragment"
+        android:title="@string/pref_header_locations"
+        android:icon="@drawable/ic_baseline_location_on_24" />
+
+    <header
+        android:fragment="com.example.taqwa.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_notifications"
+        android:icon="@drawable/ic_baseline_notifications_active_24" />
+</preference-headers>

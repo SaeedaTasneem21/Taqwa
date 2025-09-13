@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89AF5C"
+    tools:context=".fragment_english">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/etv"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textColor="#4A3434"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/urd"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textColor="#532B2B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
